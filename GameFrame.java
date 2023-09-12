@@ -22,11 +22,6 @@ GamePanel panel =new GamePanel(n,hardmode);
 frame.add(panel);
  panel.setFocusable(true);  
     panel.requestFocus();
-/* Setting the focusable property to true alone doesn't guarantee that the component will automatically receive the keyboard focus.
-The requestFocus() method is used to explicitly request the keyboard focus for the component.        */
-        
-
- 
 
 } 
 }
